@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+body
+{  padding: 80px 0;
+   padding-left: 200px;
+   background:url("https://mitpress.mit.edu/sites/default/files/styles/full_text_column/public/2018-02/Books%201_3.jpg?itok=eWWE5-pp");
+   background-repeat: repeat-y;
+   background-position: center;
+   background-size: cover;
+ 
+}
+td 
+{
+  padding: 5px;
+  }
+  h1{ 
+    text-decoration: underline;
+    font-weight: bold;
+  }
+</style>
+</head>
+<body>
+<div>
+<h1>ADVANCE SEARCH...</h1>
+<form action="AdvanceSearchServlet" method="POST">
+<table>
+<tr>
+ <td><input type="text" name="keyword" placeholder="Keyword Search"><br></td>
+</tr>
+</table>
+<table>
+<tr>
+  <td><input type="text" name="title" placeholder="Title"><br></td>
+  </tr>
+</table>
+  <table>
+<tr>
+  <td><input type="text" name="author" placeholder="Author"><br></td>
+  </tr>
+</table>
+  <table>
+<tr>
+  <td><input type="text" name="subject" placeholder="Subject"><br></td>
+  </tr>
+</table>
+  <table>
+<tr>
+  <td><input type="number" name="year" placeholder="Year"><br></td>
+  </tr>
+</table>
+  <table>
+<tr>
+  <td colspan="2"><input type="submit" value="Submit"><input type="reset" value="Reset"></td>
+</tr>
+</table>
+</form> 
+</div>
+</body>
+</html>
